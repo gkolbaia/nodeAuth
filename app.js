@@ -18,6 +18,6 @@ app.use(express.json());
 
 //Router middlewares
 app.use('/api/user', authRouter);
-app.listen(4200, () => {
+app.listen(5200, () => {
     console.log('Server is running');
 });
